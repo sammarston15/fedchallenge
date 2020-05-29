@@ -1,18 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
 .app {
   width: 100vw;
   height: 100vh;
+  font-family: 'Open Sans', sans-serif;
 }
 
 // Header Styles
 .header {
-  height: 100px;
+  height: 150px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+
 }
 .nav-top {
-  height: 50%;
+  height: 40%;
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav-top div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  border-right: 2px solid #d5d6d6;
+  border-bottom: 1px solid #d5d6d6;
+  color: rgba(46, 49, 52, 0.8);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 14px;
 }
 .nav-bottom {
-  height: 50%;
+  height: 60%;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #d5d6d6;
+}
+.nav-bottom div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100%;
+}
+
+.nav-topics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: auto;
+}
+.nav-topics div {
+  width: auto;
+  height: 100%;
+  margin: 0 20px;
+  color: rgba(46, 49, 52, 0.8);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 14px;
 }

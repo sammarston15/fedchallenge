@@ -1,5 +1,8 @@
 import React from 'react';
+import './reset.css';
 import './App.scss';
+import logo from './media/ifit_logo.png';
+import coach from './media/COACH.png';
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
           <div>shop</div>
         </div>
         <div className="nav-bottom">
-          <div>logo</div>
+          <div>
+            <img src={logo} alt="logo" />
+            <img src={coach} alt="logo" />
+          </div>
           <div className='nav-topics'>
             <div>exercise</div>
             <div>nutrition</div>
@@ -122,7 +128,7 @@ function App() {
           </div>
           <div className="equipment-card">
             <div>image</div>
-            
+
           </div>
         </div>
 
