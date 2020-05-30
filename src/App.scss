@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 .app {
-  width: 100vw;
+  width: 99.21vw;
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
 }
@@ -41,6 +41,7 @@
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #d5d6d6;
+  // padding: 0 10px;
 }
 .nav-bottom div {
   display: flex;
@@ -48,6 +49,24 @@
   align-items: center;
   width: auto;
   height: 100%;
+}
+.signup-button {
+  box-shadow: 0 1px 2px rgba(46, 49, 52, 0.4);
+  border-radius: 4px;
+  background-color: #0069d2;
+  color: #ffffff;
+  margin-top: 1.5em;
+  margin-right: 2em;
+  width: 5%;
+  height: 45%;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-topics {
@@ -67,3 +86,72 @@
   letter-spacing: 1px;
   line-height: 14px;
 }
+.company-logo {
+  margin-left: 3em
+}
+
+// Hero Section
+.greeting-container {
+  height: 801px;
+  background: url('./media/hero.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 90px;
+}
+.greeting-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 7%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 0 1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #0069d2;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+// Slidebar reviews styles
+.slidebar-container {
+  height: 30%;
+  background: #f4f5f7;
+  display: flex;
+  align-items: center;
+  
+}
+.slidebar-card {
+  box-shadow: 0 1px 2px rgba(46, 49, 52, 0.4);
+  border-radius: 4px;
+  background-color: #ffffff;
+  height: 80%;
+  width: 40%;
+  margin: 0 15px;
+  
+}
+
+//horizontal scroll with css
+  // overflow-y: auto;
+  // overflow-x: hidden;
+  // transform: rotate(-90deg) translateY(-100px);
+  // transform-origin: right top;
+
+  // for the children boxes
+    // transform: rotate(90deg);
+    // transform-origin: right top;

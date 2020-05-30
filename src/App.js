@@ -14,7 +14,7 @@ function App() {
           <div>shop</div>
         </div>
         <div className="nav-bottom">
-          <div>
+          <div className='company-logo'>
             <img src={logo} alt="logo" />
             <img src={coach} alt="logo" />
           </div>
@@ -24,12 +24,12 @@ function App() {
             <div>activity</div>
             <div>sleep</div>
           </div>
-          <div>signup button</div>
+          <span className='signup-button'>sign up</span>
         </div>
       </div>
       <div className="greeting-container">
-        <h1>The best personal training,<br /> right at your home</h1>
-        <div>join ifit coach button</div>
+        <h1>The best personal training,<br /> right at your own home</h1>
+        <div>Join ifit coach</div>
       </div>
       <div className="slidebar-container">
         <div>button left arrow</div>
@@ -45,8 +45,6 @@ function App() {
           <div>mashable logo</div>
           <p>"Breathes new life into a tired, old running routine."</p>
         </div>
-        <div className="slidebar-card"></div>
-        <div className="slidebar-card"></div>
         <div>button right arrow</div>
       </div>
       <div className="gallery-container">
