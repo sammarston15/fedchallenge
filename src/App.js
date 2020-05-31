@@ -3,8 +3,14 @@ import './reset.css';
 import './App.scss';
 import logo from './media/ifit_logo.png';
 import coach from './media/COACH.png';
+import gearjunkie from './media/gear-junkie-logo.svg';
+import wired from './media/wired-logo.svg';
+import mashable from './media/mashable-logo.svg';
 
 function App() {
+  const arrowLeft = '<';
+  const arrowRight = '>';
+
   return (
     <div className="app">
       <div className="header">
@@ -32,20 +38,20 @@ function App() {
         <div>Join ifit coach</div>
       </div>
       <div className="slidebar-container">
-        <div>button left arrow</div>
+        <div className='arrow-buttons' style={{marginLeft: '10px'}} >{arrowLeft}</div>
         <div className="slidebar-card">
-          <div>gearjunkie svg</div>
+          <img src={gearjunkie} alt='gearjunkie'/>
           <p>"You focus on putting in the work, and the technology handles the rest."</p>
         </div>
         <div className="slidebar-card">
-          <div>wired logo</div>
+          <img src={wired} alt='wired'/>
           <p>"Literally transports you from home to wherever you choose to run."</p>
         </div>
         <div className="slidebar-card">
-          <div>mashable logo</div>
+          <img src={mashable} alt='mashable' />
           <p>"Breathes new life into a tired, old running routine."</p>
         </div>
-        <div>button right arrow</div>
+        <div className='arrow-buttons' style={{marginRight: '10px'}} >{arrowRight}</div>
       </div>
       <div className="gallery-container">
         <div className="gallery-card">
