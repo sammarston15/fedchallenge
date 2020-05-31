@@ -183,3 +183,49 @@
   // for the children boxes
     // transform: rotate(90deg);
     // transform-origin: right top;
+
+
+// gallery/playlist section styles
+.gallery-container {
+  height: auto;
+  width: 80%;
+  max-width: 1354px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.gallery-card {
+  width: 288px;
+  height: 280px;
+  box-shadow: 0 7px 12px rgba(46, 49, 52, 0.3);
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin: 20px;
+  color: #2e3134;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 18px;
+}
+// s
+.gallery-card div {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.gallery-card img {
+  // margin-bottom: -.5px;
+}
+.gallery-card span {
+  font-size: 10px;
+  margin: 5px;
+}
+.view-details {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #0069d2;
+}

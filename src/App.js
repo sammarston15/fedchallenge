@@ -6,6 +6,16 @@ import coach from './media/COACH.png';
 import gearjunkie from './media/gear-junkie-logo.svg';
 import wired from './media/wired-logo.svg';
 import mashable from './media/mashable-logo.svg';
+import ireland from './media/ireland.png';
+import stopwatch from './media/stopwatch.png';
+import paperclip from './media/paperclip.png';
+import performanceSeries from './media/performanceSeries.png';
+import slowPulls from './media/slowPulls.png';
+import twentyminutes from './media/20minutes.png';
+import boston from './media/boston.png';
+import hitSeries from './media/hitSeries.png';
+import zambia from './media/zambia.png';
+import burnSeries from './media/burnSeries.png';
 
 function App() {
   const arrowLeft = '<';
@@ -54,64 +64,64 @@ function App() {
         <div className='arrow-buttons' style={{marginRight: '10px'}} >{arrowRight}</div>
       </div>
       <div className="gallery-container">
-        <div className="gallery-card">
-          <div>image</div>
+        <div className="gallery-card ">
+          <img src={ireland} alt="ireland image"/>
           <div>
-            Lake Inniscarra, Ireland-<br /> 
+            Lake Inniscarra, Ireland—<br /> 
             Pyramid
           </div>
           <div>
-            <span>stopwatch icon</span>
+            <img src={stopwatch} alt="stopwatch icon"/>
             <span>30:53</span>
-            <span>distance icon</span>
+            <img src={paperclip} alt="paperclip icon"/>
             <span>6,248 M</span>
           </div>
-          <div>VIEW DETAILS</div>
+          <div className='view-details animate__animated animate__bounce' >VIEW DETAILS</div>
         </div>
         <div className="gallery-card">
-          <div>image with playlist on top</div>
+          <img src={performanceSeries} alt="performance series image"/>
           <div>Performance Series</div>
         </div>
         <div className="gallery-card">
-          <div>image</div>
+          <img src={slowPulls} alt="slow pulls image"/>
           <div>Slow Pulls and Fast Intervals</div>
           <div>
-            <span>stopwatch icon</span>
+            <img src={stopwatch} alt="stopwatch icon"/>
             <span>44:13</span>
-            <span>distance icon</span>
+            <img src={paperclip} alt="paperclip icon"/>
             <span>9,948 M</span>
           </div>
         </div>
         <div className="gallery-card">
-          <div>image with playlist</div>
+          <img src={twentyminutes} alt="20 minutes to toned image"/>
           <div>20 Minutes to Toned</div>
         </div>
         <div className="gallery-card">
-          <div>image</div>
+          <img src={boston} alt="boston image"/>
           <div>Charles Race, Boston,<br /> Massachusetts</div>
           <div>
-            <span>stopwatch icon</span>
+            <img src={stopwatch} alt="stopwatch icon"/>
             <span>36:22</span>
-            <span>distance icon</span>
+            <img src={paperclip} alt="paperclip icon"/>
             <span>8,648 M</span>
           </div>
         </div>
         <div className="gallery-card">
-          <div>image with playlist</div>
+          <img src={hitSeries} alt="hit series image"/>
           <div>Full-Body HIIT Series</div>
         </div>
         <div className="gallery-card">
-          <div>image</div>
+          <img src={zambia} alt="zambia image"/>
           <div>Kafue River, Zambia—Power <br /> Stroke Pyramid</div>
           <div>
-            <span>stopwatch icon</span>
+            <img src={stopwatch} alt="stopwatch icon"/>
             <span>36:22</span>
-            <span>distance icon</span>
+            <img src={paperclip} alt="paperclip icon"/>
             <span>8,648 M</span>
           </div>
         </div>
         <div className="gallery-card">
-          <div>image with playlist</div>
+          <img src={burnSeries} alt="burn series image"/>
           <div>Shred &amp; Burn Series</div>
         </div>
       </div>
