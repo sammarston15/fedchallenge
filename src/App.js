@@ -16,6 +16,15 @@ import boston from './media/boston.png';
 import hitSeries from './media/hitSeries.png';
 import zambia from './media/zambia.png';
 import burnSeries from './media/burnSeries.png';
+import treadmills from './media/treadmills.png';
+import bikes from './media/bikeperson.png';
+import elliptical from './media/elliptical.png';
+import strength from './media/strength.png';
+import youtube from './media/youtubeIcon.png';
+import pinterest from './media/pinterestIcon.png';
+import facebook from './media/facebookIcon.png';
+import twitter from './media/twitterIcon.png';
+import instagram from './media/instagramIcon.png';
 
 function App() {
   const arrowLeft = '<';
@@ -31,7 +40,7 @@ function App() {
         </div>
         <div className="nav-bottom">
           <div className='company-logo'>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" style={{marginRight: '10px'}}/>
             <img src={coach} alt="logo" />
           </div>
           <div className='nav-topics'>
@@ -126,26 +135,91 @@ function App() {
         </div>
       </div>
       <div className='equipment-container' >
-        <div>Interested in our exciting iFit-enabled equipment?</div>
+        <div className='equipment-title'>Interested in our exciting iFit-enabled equipment?</div>
         <div className="equipment-card-container">
           <div className="equipment-card">
-            <div>image</div>
+            <img src={treadmills} alt="treadmills image"/>
             <div>Treadmills</div>
           </div>
           <div className="equipment-card">
-            <div>image</div>
+            <img src={bikes} alt="bike image"/>
             <div>Bikes</div>
           </div>
           <div className="equipment-card">
-            <div>image</div>
+            <img src={elliptical} alt="elliptical image"/>
             <div>Ellipticals</div>
           </div>
           <div className="equipment-card">
-            <div>image</div>
-
+            <img src={strength} alt="pully image"/>
+            <div>Strength</div>
           </div>
         </div>
-
+      </div>
+      <div className="footer">
+        <div className="quick-links-container">
+          <div>
+            <div className='quick-links-title'>Company</div>
+            <div className='quick-links-info'>About</div>
+            <div className='quick-links-info'>Contact Us</div>
+            <div className='quick-links-info'>Careers</div>
+          </div>
+          <div>
+            <div className='quick-links-title'>Account</div>
+            <div className='quick-links-info'>Log in</div>
+            <div className='quick-links-info'>Create Account</div>
+          </div>
+          <div>
+            <div className='quick-links-title'>Support</div>
+            <div className='quick-links-info'>Help Center</div>
+            <div className='quick-links-info'>Accessibility</div>
+          </div>
+        </div>
+        <div className="social-media-container">
+          <div className="social-icon">
+            <div className="create-border">
+              <img src={youtube} alt="youtube icon"/>
+            </div>
+          </div>
+          <div className="social-icon">
+            <div className="create-border">
+              <img src={pinterest} alt="pinterest icon"/>
+            </div>
+          </div>
+          <div className="social-icon">
+            <div className="create-border">
+              <img src={facebook} alt="facebook icon"/>
+            </div>
+          </div>
+          <div className="social-icon">
+            <div className="create-border">
+              <img src={twitter} alt="twitter icon"/>
+            </div>
+          </div>
+          <div className="social-icon">
+            <div className="create-border">
+              <img src={instagram} alt="instagram icon"/>
+            </div>
+          </div>
+        </div>
+        <div className="rights-container">
+          <div className="language">
+            <label>
+              <select>
+                <option>English</option>
+                <option>Spanish</option>
+                <option>French</option>
+                <option>Mandarin</option>
+                <option>Vietnamese</option>
+              </select>
+            </label>
+          </div>
+          <div className="rights">
+            <div>&copy; iFit.com. All Rights Reserved.</div>
+            <div>Privacy Policy</div>
+            <div>Terms of Use</div>
+          </div>
+          <div></div>
+        </div>
       </div>
     </div>
   );
